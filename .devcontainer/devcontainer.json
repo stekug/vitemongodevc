@@ -1,0 +1,11 @@
+{
+  "name": "Vite + MongoDB Dev Container",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "settings": {},
+  "extensions": ["dbaeumer.vscode-eslint", "mongodb.mongodb-vscode"],
+  "forwardPorts": [5173, 27017],
+  "postCreateCommand": "npm install",
+  "remoteUser": "node"
+}
